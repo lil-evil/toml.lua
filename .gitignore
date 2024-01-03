@@ -1,0 +1,8 @@
+/.vscode
+
+
+/tests/decode.txt
+/tests/encode.txt
+/tests/toml-test.gz
+/tests/toml-test
+/tests.lua
