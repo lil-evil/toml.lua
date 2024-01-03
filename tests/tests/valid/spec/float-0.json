@@ -1,0 +1,30 @@
+{
+  "flt1": {
+    "type": "integer",
+    "value": "1"
+  },
+  "flt2": {
+    "type": "float",
+    "value": "3.1415"
+  },
+  "flt3": {
+    "type": "float",
+    "value": "-0.01"
+  },
+  "flt4": {
+    "type": "integer",
+    "value": "5e+22"
+  },
+  "flt5": {
+    "type": "integer",
+    "value": "1000000"
+  },
+  "flt6": {
+    "type": "float",
+    "value": "-0.02"
+  },
+  "flt7": {
+    "type": "float",
+    "value": "6.626e-34"
+  }
+}

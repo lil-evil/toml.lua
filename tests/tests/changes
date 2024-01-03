@@ -1,0 +1,19 @@
+most of changes are made because that doesn't impact the data as seen by lua
+some may be just bs from the spec that make the parser harder to implement
+
+
+=> all float that are interpreted as number by lua (mostly single trailling 0 eg: 300.0):
+=> not: luajit, 5.1 and 5.2 missrepresent int 310.0 as 310, where 5.3 and 5.4 don't. 
+=> for simplicity, tests were ajusted where jit, 5.1, 5.2 "cut" the trailling 0, leading to false negatives
+  - valid/comment/tricky
+  - valid/float/exponent
+  - valid/float/underscore
+  - valid/inline-table/spaces
+  - valid/float/zero
+  - valid/spec/float-0
+
+=> serialyzing 1e+06 as 1000000 is valid, don't want to put extra work into making this slight change in tests/decoder.lua
+  - valid/spec/float-0
+
+
+all the tests files comes from https://github.com/toml-lang/toml-test

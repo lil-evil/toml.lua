@@ -1,0 +1,30 @@
+{
+  "exponent": {
+    "type": "integer",
+    "value": "0"
+  },
+  "exponent-signed-neg": {
+    "type": "integer",
+    "value": "0"
+  },
+  "exponent-signed-pos": {
+    "type": "integer",
+    "value": "0"
+  },
+  "exponent-two-0": {
+    "type": "integer",
+    "value": "0"
+  },
+  "signed-neg": {
+    "type": "integer",
+    "value": "0"
+  },
+  "signed-pos": {
+    "type": "integer",
+    "value": "0"
+  },
+  "zero": {
+    "type": "integer",
+    "value": "0"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "lower": {
+    "type": "integer",
+    "value": "300"
+  },
+  "minustenth": {
+    "type": "float",
+    "value": "-0.1"
+  },
+  "neg": {
+    "type": "float",
+    "value": "0.03"
+  },
+  "pointlower": {
+    "type": "integer",
+    "value": "310"
+  },
+  "pointupper": {
+    "type": "integer",
+    "value": "310"
+  },
+  "pos": {
+    "type": "integer",
+    "value": "300"
+  },
+  "upper": {
+    "type": "integer",
+    "value": "300"
+  },
+  "zero": {
+    "type": "integer",
+    "value": "3"
+  }
+}
